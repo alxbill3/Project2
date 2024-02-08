@@ -64,32 +64,25 @@ body{
     justify-content: center;
     gap: 20px;
 }
-/*.hoverEffect{
-    background-color:#DCE5E4;
-    margin-top: 40%;
-    width: 100%;
-    height: 80%;
-    border-radius: 20px;
-    visibility: hidden;
-}*/
 .allItems{
     width: 250px;
     height: 350px;
+    border-radius: 20px;
     background-color: #64a78b;
+}
+.ItemPreviewDetail{
+    width: 250px;
+    height: 350px;
     border-radius: 20px;
 }
 .allItems:hover{
-    transition: 0.7s;
+    transition: 0.5s;
     margin-top: 30px;
     height:320px ;
     background-color: #DCE5E4;
     .hoverButton{
         visibility: visible;
     }
-}
-.hoverEffect{
-    transition: 0.7s;
-    visibility: visible;
 }
 .hoverButton{
     width: 40px;
@@ -120,4 +113,66 @@ body{
     width: 3px;
     border-radius: 20px;
     margin-top: -34px;
+}
+#itemsPreveiwButton{
+    width: auto;
+    height: 40px;
+    padding: 12px 22px;
+    border-radius: 30px;
+    background-color: #303030;
+    border: none;
+    color: white;
+    margin-left: -80px;
+}
+.ItemPreviewDetail h4{
+    color: #303030;
+    margin:0px 0px 0px -80px;
+    font-size: 30px;
+}
+.ItemPreviewDetail p{
+    color: #303030;
+    font-size: 20px;
+    margin-left: 8px;
+    margin-top: 0px;
+}
+.whyChooseUs{
+    width: auto;
+    height: auto;
+    padding: 5%;
+    display: flex;
+}
+.wcuTexts{
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.wcuPicture{
+    height: 450px;
+    width: 50%;
+}
+.wcuTextsChild.text{
+    width: 100%;
+    height: 150px;
+}
+.wcuOption{
+    width: 48%;
+    height: 150px;
+
+}
+.wcuOptionIcon{
+    background-color: #DCE5E4;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+}
+.wcuOptionTitle{
+    color: #303030;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.wcuOptiondiscreption{
+    color: #424242;
+    text-align: justify;
 }
